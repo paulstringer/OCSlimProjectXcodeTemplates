@@ -108,5 +108,48 @@
 &lt;string&gt;APPL&lt;/string&gt;
 </string>
 	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Project</key>
+					<dict>
+						<key>Configurations</key>
+						<dict>
+							<key>Debug</key>
+							<dict>
+								<key>SWIFT_OPTIMIZATION_LEVEL</key>
+								<string>-Onone</string>
+								<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
+								<string>DEBUG</string>
+							</dict>
+							<key>Release</key>
+							<dict>
+								<key>SWIFT_OPTIMIZATION_LEVEL</key>
+								<string>-Owholemodule</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>Targets</key>
+					<array>
+						<dict>
+							<key>Concrete</key>
+							<false/>
+							<key>SharedSettings</key>
+							<dict>
+								<key>SWIFT_VERSION</key>
+								<string>3.0</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>
