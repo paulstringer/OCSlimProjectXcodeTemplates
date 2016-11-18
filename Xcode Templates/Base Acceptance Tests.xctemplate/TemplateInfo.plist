@@ -43,6 +43,8 @@
 			<string>com.apple.product-type.application</string>
 			<key>SharedSettings</key>
 			<dict>
+				<key>SWIFT_VERSION</key>
+				<string>3.0.1</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/../Frameworks</string>
 				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
@@ -140,11 +142,6 @@
 						<dict>
 							<key>Concrete</key>
 							<false/>
-							<key>SharedSettings</key>
-							<dict>
-								<key>SWIFT_VERSION</key>
-								<string>3.0</string>
-							</dict>
 						</dict>
 					</array>
 				</dict>
