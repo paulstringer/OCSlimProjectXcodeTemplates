@@ -19,7 +19,7 @@
  
  target '___PACKAGENAMEASIDENTIFIER___' do
     platform :___POD_PLATFORM_IDENTIFIER___
-    pod '___POD_NAME___'
+    pod '___POD_NAME___', '~> ___POD_VERSION___'
  end
  
  

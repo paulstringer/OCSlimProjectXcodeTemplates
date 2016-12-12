@@ -10,6 +10,8 @@
 		<string>OCSlimProject</string>
 		<key>POD_PLATFORM_IDENTIFIER</key>
 		<string>___POD_PLATFORM_IDENTIFIER___</string>
+		<key>POD_VERSION</key>
+		<string>1.3</string>
 	</dict>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
